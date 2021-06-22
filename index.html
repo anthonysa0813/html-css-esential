@@ -8,23 +8,31 @@
   </head>
   <body>
     <header>
-      <p>Setup</p>
       <nav>
-        <ol>
-          <li>Google Chrome</li>
-          <li>Visual Studio Code</li>
-          <li>Figma</li>
-          <li>GitHub</li>
-        </ol>
-        <p>Conceptos esenciales del Desarrollo Web</p>
-        <ol>
-          <li>Qué es HTML</li>
-          <li>Etiquetas</li>
-          <li>DOM</li>
-          <li>Semántica</li>
-          <li>Atributos</li>
-          <li>Qué es CSS</li>
-        </ol>
+        <details open>
+          <summary>Setup</summary>
+          <ol>
+            <li>
+              <a href="#google-chrome">Google Chrome</a>
+            </li>
+            <li>
+              <a href="#vsc">Visual Studio Code</a>
+            </li>
+            <li><a href="#figma">Figma</a></li>
+            <li><a href="#github">GitHub</a></li>
+          </ol>
+        </details>
+        <details open>
+          <summary>Conceptos esenciales del Desarrollo Web</summary>
+          <ol>
+            <li><a href="#html">Qué es HTML</a></li>
+            <li><a href="#etiquetas">Etiquetas</a></li>
+            <li><a href="#dom">DOM</a></li>
+            <li><a href="#semantica">Semántica</a></li>
+            <li><a href="#atributos">Atributos</a></li>
+            <li><a href="#css">Qué es CSS</a></li>
+          </ol>
+        </details>
       </nav>
     </header>
     <h1>Curso esencial de HTML y CSS</h1>
@@ -39,6 +47,7 @@
       src="./images/logo-google-chrome.png"
       alt="logo de google chrome"
       title="logo de google chrome"
+      id="google-chrome"
     />
     <h3>Google Chrome</h3>
     <p>
@@ -50,6 +59,7 @@
       src="./images/visual-studio-code.png"
       alt="logo del editor de código visual studio code"
       title="logo del editor de código visual studio"
+      id="vsc"
     />
     <h3>Visual Studio Code</h3>
     <p>
@@ -62,6 +72,7 @@
       src="./images/logo-figma.png"
       alt="logo de figma"
       title="logo de figma"
+      id="figma"
     />
     <h3>Figma</h3>
     <p>
@@ -73,6 +84,7 @@
       src="./images/logo-github.png"
       alt="logo de github"
       title="logo de github"
+      id="github"
     />
     <h3>GitHub</h3>
     <p>
@@ -86,13 +98,27 @@
     <hr />
 
     <h2>Conceptos esenciales del Desarrollo Web</h2>
-    <h3>Qué es HTML</h3>
+    <h3 id="html">Qué es HTML</h3>
     <p>
       Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el
       componente más básico de la web. Define el significado y la estructura del
-      contenido.
+      contenido. <code>const name = "leo"</code>
     </p>
-    <h3>Etiquetas</h3>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    <h3 id="etiquetas">Etiquetas</h3>
     <p>
       Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al
       contenido de nuestro website y cada una tiene características y usos
@@ -106,7 +132,7 @@
       las más importantes y que serán parte de tu día a día como Software
       Developer.
     </p>
-    <h3>DOM</h3>
+    <h3 id="dom">DOM</h3>
     <p>
       El Document Object Model es una estructura de árbol que representará todos
       nuestros proyectos web como si un árbol genealógico fuera: padres, hijos,
@@ -119,7 +145,7 @@
       alt="representación del Document Object Model"
       title="representación del Document Object Model"
     />
-    <h3>Semántica</h3>
+    <h3 id="semantica">Semántica</h3>
     <p>
       La semántica le brinda sentido a cada elemento existen en un sitio web,
       algunos elementos será meramente decorativos y no deben significar nada
@@ -131,14 +157,14 @@
       web, para que personas con habilidades diferentes puedan entender cada
       contenido.
     </p>
-    <h3>Atributos</h3>
+    <h3 id="atributos">Atributos</h3>
     <p>
       Los atributos le dan características extra a las etiquetas para
       complementar información y son pre programadas por el navegador, algunos
       atributos funcionan en todas las etiquetas de la misma forma como ‘class’
       pero otros atributos funcionan en solo alguna etiquetas como src
     </p>
-    <h3>CSS</h3>
+    <h3 id="css">CSS</h3>
     <p>
       Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el
       lenguaje de estilos utilizado para describir la presentación de documentos
@@ -194,5 +220,9 @@
       alt="Imagen de Leonidas Esteban"
       title="Imagen de Leonidas Esteban"
     />
+    <p>
+      Enviame un mensaje a:
+      <a href="mailto:anthonysa0813@gmail.com">anthonysa0813@gmail.com</a>
+    </p>
   </body>
 </html>
