@@ -32,7 +32,7 @@
 
 body {
   color: var(--gray30);
-  font-family: charter;
+  font-family: "Roboto", charter;
 }
 
 header {
@@ -64,4 +64,15 @@ h2 {
 h3,
 h4 {
   font-size: 1.5em;
+}
+
+/* hero */
+.hero {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.3),
+      transparent
+    ),
+    url("../images/patron-1.png");
+  height: 350px;
 }
