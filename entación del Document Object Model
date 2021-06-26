@@ -1,0 +1,35 @@
+[33mcommit 8da93275e875caa02d097b30a9e87245d418e32c[m
+Author: anthony sanchez <anthonysa0813@gmail.com>
+Date:   Fri Jun 25 03:52:58 2021 -0500
+
+    add wrapper in the main content with the header-content  in its position
+
+[33mcommit 5f40fb0fb9abb68f1bf4f88d80e25fbf942d1f44[m
+Author: anthony sanchez <anthonysa0813@gmail.com>
+Date:   Thu Jun 24 16:54:11 2021 -0500
+
+    add the background and gradient part in hero
+
+[33mcommit dbf434776fd2a37ef4251cd7038fa6bed987e08a[m
+Author: anthony sanchez <anthonysa0813@gmail.com>
+Date:   Thu Jun 24 15:29:35 2021 -0500
+
+    add a font with @font-face in the file css
+
+[33mcommit e57ac91b83e9e950e1c2201f84fb887394a374d2[m
+Author: anthony sanchez <anthonysa0813@gmail.com>
+Date:   Thu Jun 24 15:18:58 2021 -0500
+
+    add the custom properties
+
+[33mcommit 8e3538697bf615b439095ab0a81da4be115ee2aa[m
+Author: anthony sanchez <anthonysa0813@gmail.com>
+Date:   Mon Jun 21 23:58:18 2021 -0500
+
+    add scape html in the project
+
+[33mcommit a16e32710a955c0b79a731e024bd6d6f66a1dbe1[m
+Author: anthony sanchez <anthonysa0813@gmail.com>
+Date:   Mon Jun 21 21:46:24 2021 -0500
+
+    Initialized the course of HTML and CSS - topic: semantic html
